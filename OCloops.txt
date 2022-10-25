@@ -1,0 +1,32 @@
+Question 1:
+
+do {
+    console.log(userNumber);
+    userNumber = userNumber + 6;
+} while (userNumber <=100)
+
+
+Question 2:
+
+for (i=0; i<=99; i++) {
+    if (i % 3 === 0){
+    console.log(i);    
+    }
+}
+
+Question 3:
+
+for (i=1; i<=10; i++) {
+    console.log(num + ' x ' + i + ' = ' + (num*i));
+}
+
+Question 4:
+
+let gameTurns = 0;
+for (gameTurns = 0; gameTurns <= 100; gameTurns++) {
+    if (gameTurns % 2 === 0) {
+        console.log('Turns: ' + gameTurns + ' Score: ' + (points+5));
+    } else {
+        console.log('Turns: ' + gameTurns + ' Score: ' + (points+3));
+    }
+}
